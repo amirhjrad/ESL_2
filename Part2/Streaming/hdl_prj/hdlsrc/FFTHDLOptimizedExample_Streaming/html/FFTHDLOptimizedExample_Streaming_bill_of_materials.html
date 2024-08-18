@@ -1,0 +1,884 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="rtwreport.css" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>
+High-level Resource Utilization Report for FFTHDLOptimizedExample_Streaming
+</title>
+
+</head>
+<body bgcolor="#ffffff" link="0033CC" vlink="#666666" onload="try {if (top) {if (top.rtwPageOnLoad) top.rtwPageOnLoad('rtwIdBillOfMaterials'); else local_onload();}} catch(err) {};hdlTableShrink(this, 'Input_Port');hdlTableShrink(this, 'Output_Port');">
+<script>
+<!--
+function hdlTableShrink(o,tagNameStr)
+{
+var temp = document.getElementsByName(tagNameStr);
+if (temp[0].style.display == "")
+{
+	temp[0].style.display = "none";
+	o.innerHTML = '<span style="font-family:monospace">[+]</span>';
+}
+else
+{
+	temp[0].style.display = "";
+	o.innerHTML = '<span style="font-family:monospace">[-]</span>';
+}
+}
+// -->
+</script>
+<script>
+<!--
+function hdlTableCollapseAll(o, numNtks, numComps)
+{
+	var id = "";
+	for (i = 1; i <= numNtks; i++)
+	{
+		for (j = 1; j <= numComps; j++)
+		{
+			id = "Multiply" + "_" + i + "_" + j;
+			var temp = document.getElementsByName(id);
+			if (temp != null && temp.length > 0)
+			{
+				temp[0].style.display = "none";
+			}
+			id = "Adder" + "_" + i + "_" + j;
+			temp = document.getElementsByName(id);
+			if (temp != null && temp.length > 0)
+			{
+				temp[0].style.display = "none";
+			}
+			id = "Subtractor" + "_" + i + "_" + j;
+			temp = document.getElementsByName(id);
+			if (temp != null && temp.length > 0)
+			{
+				temp[0].style.display = "none";
+			}
+			id = "Register" + "_" + i + "_" + j;
+			temp = document.getElementsByName(id);
+			if (temp != null && temp.length > 0)
+			{
+				temp[0].style.display = "none";
+			}
+			id = "RAM" + "_" + i + "_" + j;
+			temp = document.getElementsByName(id);
+			if (temp != null && temp.length > 0)
+			{
+				temp[0].style.display = "none";
+			}
+			id = "Multiplexer" + "_" + i + "_" + j;
+			temp = document.getElementsByName(id);
+			if (temp != null && temp.length > 0)
+			{
+				temp[0].style.display = "none";
+			}
+		}
+	}
+	var collapsibles = document.getElementsByName('collapsible');
+	for (i = 0; i < collapsibles.length; i++)
+	{
+		collapsibles[i].innerHTML = '<span style="font-family:monospace">[+]</span>';
+	}
+}
+// -->
+</script>
+<script>
+<!--
+function hdlTableExpandAll(o, numNtks, numComps)
+{
+	var id = "";
+	for (i = 1; i <= numNtks; i++)
+	{
+		for (j = 1; j <= numComps; j++)
+		{
+			id = "Multiply" + "_" + i + "_" + j;
+			var temp = document.getElementsByName(id);
+			if (temp != null && temp.length > 0)
+			{
+				temp[0].style.display = "";
+			}
+			id = "Adder" + "_" + i + "_" + j;
+			temp = document.getElementsByName(id);
+			if (temp != null && temp.length > 0)
+			{
+				temp[0].style.display = "";
+			}
+			id = "Subtractor" + "_" + i + "_" + j;
+			temp = document.getElementsByName(id);
+			if (temp != null && temp.length > 0)
+			{
+				temp[0].style.display = "";
+			}
+			id = "Register" + "_" + i + "_" + j;
+			temp = document.getElementsByName(id);
+			if (temp != null && temp.length > 0)
+			{
+				temp[0].style.display = "";
+			}
+			id = "RAM" + "_" + i + "_" + j;
+			temp = document.getElementsByName(id);
+			if (temp != null && temp.length > 0)
+			{
+				temp[0].style.display = "";
+			}
+			id = "Multiplexer" + "_" + i + "_" + j;
+			temp = document.getElementsByName(id);
+			if (temp != null && temp.length > 0)
+			{
+				temp[0].style.display = "";
+			}
+		}
+	}
+	var collapsibles = document.getElementsByName('collapsible');
+	for (i = 0; i < collapsibles.length; i++)
+	{
+		collapsibles[i].innerHTML = '<span style="font-family:monospace">[-]</span>';
+	}
+}
+// -->
+</script>
+<font SIZE="+2" COLOR="#000066">
+Generic Resource Report for FFTHDLOptimizedExample_Streaming
+</font>
+<br /><br /><br /><a name="Summary">
+<font size="+1" color="#000066">
+<b class="midprod">
+Summary
+</b>
+
+</font>
+
+</a>
+<br /><br /><table width="100%" border="1">
+<tr style="background-color: #eeeeff">
+<td align="left" valign="top" style="border-style: none">
+Multipliers
+</td>
+<td align="center" valign="top" style="border-style: none">
+108
+</td>
+
+</tr>
+<tr style="background-color: #ffffff">
+<td align="left" valign="top" style="border-style: none">
+Adders/Subtractors
+</td>
+<td align="center" valign="top" style="border-style: none">
+993
+</td>
+
+</tr>
+<tr style="background-color: #eeeeff">
+<td align="left" valign="top" style="border-style: none">
+Registers
+</td>
+<td align="center" valign="top" style="border-style: none">
+3637
+</td>
+
+</tr>
+<tr style="background-color: #ffffff">
+<td align="left" valign="top" style="border-style: none">
+Total 1-Bit Registers
+</td>
+<td align="center" valign="top" style="border-style: none">
+52683
+</td>
+
+</tr>
+<tr style="background-color: #eeeeff">
+<td align="left" valign="top" style="border-style: none">
+RAMs
+</td>
+<td align="center" valign="top" style="border-style: none">
+160
+</td>
+
+</tr>
+<tr style="background-color: #ffffff">
+<td align="left" valign="top" style="border-style: none">
+Multiplexers
+</td>
+<td align="center" valign="top" style="border-style: none">
+2512
+</td>
+
+</tr>
+<tr style="background-color: #eeeeff">
+<td align="left" valign="top" style="border-style: none">
+I/O Bits
+</td>
+<td align="center" valign="top" style="border-style: none">
+660
+</td>
+
+</tr>
+<tr style="background-color: #ffffff">
+<td align="left" valign="top" style="border-style: none">
+Static Shift operators
+</td>
+<td align="center" valign="top" style="border-style: none">
+54
+</td>
+
+</tr>
+<tr style="background-color: #eeeeff">
+<td align="left" valign="top" style="border-style: none">
+Dynamic Shift operators
+</td>
+<td align="center" valign="top" style="border-style: none">
+0
+</td>
+
+</tr>
+
+</table>
+<br /><br /><a name="Detailed Report">
+<font size="+1" color="#000066">
+<b class="midprod">
+Detailed Report
+</b>
+
+</font>
+
+</a>
+<br /><br /><p><hr /></p><h5>
+Report for Subsystem:    <a href="matlab:coder.internal.code2model('FFTHDLOptimizedExample_Streaming:6')" name="code2model" class="code2model">
+FFT Streaming
+</a>
+
+</h5>
+<h5>
+Multipliers (108)
+</h5>
+<span style="font-family:monospace">
+19x16-bit Multiply 							: 32
+</span>
+<br /><span style="font-family:monospace">
+21x16-bit Multiply 							: 32
+</span>
+<br /><span style="font-family:monospace">
+23x16-bit Multiply 							: 28
+</span>
+<br /><span style="font-family:monospace">
+25x16-bit Multiply 							: 16
+</span>
+<br /><h5>
+Adders/Subtractors (993)
+</h5>
+<span style="font-family:monospace">
+5x5-bit Adder 							: 44
+</span>
+<br /><span style="font-family:monospace">
+18x18-bit Adder 							: 16
+</span>
+<br /><span style="font-family:monospace">
+3x3-bit Adder 							: 100
+</span>
+<br /><span style="font-family:monospace">
+4x4-bit Adder 							: 44
+</span>
+<br /><span style="font-family:monospace">
+19x19-bit Adder 							: 32
+</span>
+<br /><span style="font-family:monospace">
+9x9-bit Adder 							: 27
+</span>
+<br /><span style="font-family:monospace">
+2x2-bit Adder 							: 59
+</span>
+<br /><span style="font-family:monospace">
+7x7-bit Adder 							: 16
+</span>
+<br /><span style="font-family:monospace">
+36x36-bit Adder 							: 8
+</span>
+<br /><span style="font-family:monospace">
+20x20-bit Adder 							: 16
+</span>
+<br /><span style="font-family:monospace">
+21x21-bit Adder 							: 32
+</span>
+<br /><span style="font-family:monospace">
+38x38-bit Adder 							: 8
+</span>
+<br /><span style="font-family:monospace">
+22x22-bit Adder 							: 16
+</span>
+<br /><span style="font-family:monospace">
+23x23-bit Adder 							: 32
+</span>
+<br /><span style="font-family:monospace">
+40x40-bit Adder 							: 7
+</span>
+<br /><span style="font-family:monospace">
+24x24-bit Adder 							: 8
+</span>
+<br /><span style="font-family:monospace">
+25x25-bit Adder 							: 16
+</span>
+<br /><span style="font-family:monospace">
+42x42-bit Adder 							: 4
+</span>
+<br /><span style="font-family:monospace">
+26x26-bit Adder 							: 8
+</span>
+<br /><span style="font-family:monospace">
+18x18-bit Subtractor 							: 16
+</span>
+<br /><span style="font-family:monospace">
+19x19-bit Subtractor 							: 32
+</span>
+<br /><span style="font-family:monospace">
+20x20-bit Subtractor 							: 97
+</span>
+<br /><span style="font-family:monospace">
+11x11-bit Subtractor 							: 54
+</span>
+<br /><span style="font-family:monospace">
+17-bit Subtractor 							: 162
+</span>
+<br /><span style="font-family:monospace">
+36x36-bit Subtractor 							: 8
+</span>
+<br /><span style="font-family:monospace">
+21x21-bit Subtractor 							: 32
+</span>
+<br /><span style="font-family:monospace">
+38x38-bit Subtractor 							: 8
+</span>
+<br /><span style="font-family:monospace">
+22x22-bit Subtractor 							: 16
+</span>
+<br /><span style="font-family:monospace">
+23x23-bit Subtractor 							: 32
+</span>
+<br /><span style="font-family:monospace">
+40x40-bit Subtractor 							: 7
+</span>
+<br /><span style="font-family:monospace">
+24x24-bit Subtractor 							: 8
+</span>
+<br /><span style="font-family:monospace">
+25x25-bit Subtractor 							: 16
+</span>
+<br /><span style="font-family:monospace">
+42x42-bit Subtractor 							: 4
+</span>
+<br /><span style="font-family:monospace">
+26x26-bit Subtractor 							: 8
+</span>
+<br /><h5>
+Registers (3637)
+</h5>
+<span style="font-family:monospace">
+16-bit Register 							: 210
+</span>
+<br /><span style="font-family:monospace">
+1-bit Register 							: 1029
+</span>
+<br /><span style="font-family:monospace">
+5-bit Register 							: 18
+</span>
+<br /><span style="font-family:monospace">
+2-bit Register 							: 71
+</span>
+<br /><span style="font-family:monospace">
+17-bit Register 							: 144
+</span>
+<br /><span style="font-family:monospace">
+18-bit Register 							: 224
+</span>
+<br /><span style="font-family:monospace">
+3-bit Register 							: 256
+</span>
+<br /><span style="font-family:monospace">
+4-bit Register 							: 18
+</span>
+<br /><span style="font-family:monospace">
+19-bit Register 							: 192
+</span>
+<br /><span style="font-family:monospace">
+7-bit Register 							: 27
+</span>
+<br /><span style="font-family:monospace">
+9-bit Register 							: 27
+</span>
+<br /><span style="font-family:monospace">
+6-bit Register 							: 27
+</span>
+<br /><span style="font-family:monospace">
+35-bit Register 							: 96
+</span>
+<br /><span style="font-family:monospace">
+36-bit Register 							: 16
+</span>
+<br /><span style="font-family:monospace">
+20-bit Register 							: 224
+</span>
+<br /><span style="font-family:monospace">
+21-bit Register 							: 240
+</span>
+<br /><span style="font-family:monospace">
+37-bit Register 							: 96
+</span>
+<br /><span style="font-family:monospace">
+38-bit Register 							: 16
+</span>
+<br /><span style="font-family:monospace">
+22-bit Register 							: 272
+</span>
+<br /><span style="font-family:monospace">
+23-bit Register 							: 120
+</span>
+<br /><span style="font-family:monospace">
+39-bit Register 							: 84
+</span>
+<br /><span style="font-family:monospace">
+40-bit Register 							: 14
+</span>
+<br /><span style="font-family:monospace">
+24-bit Register 							: 16
+</span>
+<br /><span style="font-family:monospace">
+25-bit Register 							: 128
+</span>
+<br /><span style="font-family:monospace">
+41-bit Register 							: 48
+</span>
+<br /><span style="font-family:monospace">
+42-bit Register 							: 8
+</span>
+<br /><span style="font-family:monospace">
+26-bit Register 							: 16
+</span>
+<br /><h5>
+RAMs (160)
+</h5>
+<span style="font-family:monospace">
+32x17-bit RAM 							: 16
+</span>
+<br /><span style="font-family:monospace">
+8x17-bit RAM 							: 16
+</span>
+<br /><span style="font-family:monospace">
+16x18-bit RAM 							: 16
+</span>
+<br /><span style="font-family:monospace">
+8x18-bit RAM 							: 16
+</span>
+<br /><span style="font-family:monospace">
+8x19-bit RAM 							: 32
+</span>
+<br /><span style="font-family:monospace">
+4x20-bit RAM 							: 16
+</span>
+<br /><span style="font-family:monospace">
+8x20-bit RAM 							: 16
+</span>
+<br /><span style="font-family:monospace">
+8x21-bit RAM 							: 16
+</span>
+<br /><span style="font-family:monospace">
+8x22-bit RAM 							: 16
+</span>
+<br /><h5>
+Multiplexers (2512)
+</h5>
+<span style="font-family:monospace">
+2-bit 8-to-1 Multiplexer 							: 18
+</span>
+<br /><span style="font-family:monospace">
+1-bit 7-to-1 Multiplexer 							: 42
+</span>
+<br /><span style="font-family:monospace">
+5-bit 5-to-1 Multiplexer 							: 1
+</span>
+<br /><span style="font-family:monospace">
+1-bit 4-to-1 Multiplexer 							: 45
+</span>
+<br /><span style="font-family:monospace">
+5-bit 6-to-1 Multiplexer 							: 1
+</span>
+<br /><span style="font-family:monospace">
+2-bit 9-to-1 Multiplexer 							: 4
+</span>
+<br /><span style="font-family:monospace">
+17-bit 8-to-1 Multiplexer 							: 16
+</span>
+<br /><span style="font-family:monospace">
+3-bit 8-to-1 Multiplexer 							: 48
+</span>
+<br /><span style="font-family:monospace">
+3-bit 7-to-1 Multiplexer 							: 40
+</span>
+<br /><span style="font-family:monospace">
+1-bit 12-to-1 Multiplexer 							: 32
+</span>
+<br /><span style="font-family:monospace">
+3-bit 15-to-1 Multiplexer 							: 16
+</span>
+<br /><span style="font-family:monospace">
+5-bit 7-to-1 Multiplexer 							: 8
+</span>
+<br /><span style="font-family:monospace">
+2-bit 7-to-1 Multiplexer 							: 19
+</span>
+<br /><span style="font-family:monospace">
+17-bit 4-to-1 Multiplexer 							: 16
+</span>
+<br /><span style="font-family:monospace">
+5-bit 10-to-1 Multiplexer 							: 8
+</span>
+<br /><span style="font-family:monospace">
+17-bit 9-to-1 Multiplexer 							: 16
+</span>
+<br /><span style="font-family:monospace">
+3-bit 14-to-1 Multiplexer 							: 16
+</span>
+<br /><span style="font-family:monospace">
+17-bit 3-to-1 Multiplexer 							: 16
+</span>
+<br /><span style="font-family:monospace">
+1-bit 3-to-1 Multiplexer 							: 49
+</span>
+<br /><span style="font-family:monospace">
+4-bit 5-to-1 Multiplexer 							: 1
+</span>
+<br /><span style="font-family:monospace">
+4-bit 6-to-1 Multiplexer 							: 1
+</span>
+<br /><span style="font-family:monospace">
+19-bit 2-to-1 Multiplexer 							: 160
+</span>
+<br /><span style="font-family:monospace">
+18-bit 8-to-1 Multiplexer 							: 16
+</span>
+<br /><span style="font-family:monospace">
+4-bit 7-to-1 Multiplexer 							: 8
+</span>
+<br /><span style="font-family:monospace">
+18-bit 4-to-1 Multiplexer 							: 16
+</span>
+<br /><span style="font-family:monospace">
+4-bit 10-to-1 Multiplexer 							: 8
+</span>
+<br /><span style="font-family:monospace">
+18-bit 9-to-1 Multiplexer 							: 16
+</span>
+<br /><span style="font-family:monospace">
+18-bit 3-to-1 Multiplexer 							: 16
+</span>
+<br /><span style="font-family:monospace">
+3-bit 6-to-1 Multiplexer 							: 68
+</span>
+<br /><span style="font-family:monospace">
+1-bit 6-to-1 Multiplexer 							: 36
+</span>
+<br /><span style="font-family:monospace">
+20-bit 2-to-1 Multiplexer 							: 162
+</span>
+<br /><span style="font-family:monospace">
+6-bit 6-to-1 Multiplexer 							: 27
+</span>
+<br /><span style="font-family:monospace">
+11-bit 2-to-1 Multiplexer 							: 108
+</span>
+<br /><span style="font-family:monospace">
+9-bit 2-to-1 Multiplexer 							: 54
+</span>
+<br /><span style="font-family:monospace">
+9-bit 4-to-1 Multiplexer 							: 27
+</span>
+<br /><span style="font-family:monospace">
+2-bit 2-to-1 Multiplexer 							: 55
+</span>
+<br /><span style="font-family:monospace">
+7-bit 2-to-1 Multiplexer 							: 16
+</span>
+<br /><span style="font-family:monospace">
+16-bit 10-to-1 Multiplexer 							: 54
+</span>
+<br /><span style="font-family:monospace">
+17-bit 2-to-1 Multiplexer 							: 324
+</span>
+<br /><span style="font-family:monospace">
+3-bit 5-to-1 Multiplexer 							: 1
+</span>
+<br /><span style="font-family:monospace">
+19-bit 6-to-1 Multiplexer 							: 16
+</span>
+<br /><span style="font-family:monospace">
+1-bit 9-to-1 Multiplexer 							: 48
+</span>
+<br /><span style="font-family:monospace">
+1-bit 5-to-1 Multiplexer 							: 43
+</span>
+<br /><span style="font-family:monospace">
+3-bit 9-to-1 Multiplexer 							: 24
+</span>
+<br /><span style="font-family:monospace">
+19-bit 4-to-1 Multiplexer 							: 16
+</span>
+<br /><span style="font-family:monospace">
+19-bit 3-to-1 Multiplexer 							: 16
+</span>
+<br /><span style="font-family:monospace">
+2-bit 5-to-1 Multiplexer 							: 2
+</span>
+<br /><span style="font-family:monospace">
+2-bit 6-to-1 Multiplexer 							: 1
+</span>
+<br /><span style="font-family:monospace">
+21-bit 2-to-1 Multiplexer 							: 208
+</span>
+<br /><span style="font-family:monospace">
+20-bit 6-to-1 Multiplexer 							: 16
+</span>
+<br /><span style="font-family:monospace">
+20-bit 4-to-1 Multiplexer 							: 16
+</span>
+<br /><span style="font-family:monospace">
+20-bit 3-to-1 Multiplexer 							: 16
+</span>
+<br /><span style="font-family:monospace">
+1-bit 8-to-1 Multiplexer 							: 9
+</span>
+<br /><span style="font-family:monospace">
+21-bit 6-to-1 Multiplexer 							: 16
+</span>
+<br /><span style="font-family:monospace">
+21-bit 4-to-1 Multiplexer 							: 16
+</span>
+<br /><span style="font-family:monospace">
+21-bit 3-to-1 Multiplexer 							: 16
+</span>
+<br /><span style="font-family:monospace">
+22-bit 2-to-1 Multiplexer 							: 48
+</span>
+<br /><span style="font-family:monospace">
+23-bit 2-to-1 Multiplexer 							: 160
+</span>
+<br /><span style="font-family:monospace">
+22-bit 4-to-1 Multiplexer 							: 32
+</span>
+<br /><span style="font-family:monospace">
+3-bit 3-to-1 Multiplexer 							: 16
+</span>
+<br /><span style="font-family:monospace">
+22-bit 3-to-1 Multiplexer 							: 16
+</span>
+<br /><span style="font-family:monospace">
+24-bit 2-to-1 Multiplexer 							: 48
+</span>
+<br /><span style="font-family:monospace">
+25-bit 2-to-1 Multiplexer 							: 64
+</span>
+<br /><span style="font-family:monospace">
+25-bit 3-to-1 Multiplexer 							: 16
+</span>
+<br /><span style="font-family:monospace">
+26-bit 2-to-1 Multiplexer 							: 48
+</span>
+<br /><h5>
+Number of Shift operators (54)
+</h5>
+<span style="font-family:monospace">
+Static Shift Left 							: 54
+</span>
+<br /><h5>
+Number of I/O Bits (660)
+</h5>
+<span name="collapsible" id="collapsible" style="font-family:monospace" onclick="hdlTableShrink(this, 'Input_Port')" onmouseover="this.style.cursor = 'pointer'">
+[+]
+</span>
+<span style="font-family:monospace">
+Number of Input Bits: 259
+</span>
+<span name="Input_Port" id="Input_Port">
+<ul class="SystemdefinedCollapse" id="840e5454-9601-464a-96f7-3870a7f78f2f" dataCollapse="off">
+<li>
+clk: 1 bit
+</li>
+<li>
+reset: 1 bit
+</li>
+<li>
+<a href="matlab:coder.internal.code2model('FFTHDLOptimizedExample_Streaming:7')" name="code2model" class="code2model">
+DataIn
+</a>
+: 16 bits
+</li>
+<li>
+<a href="matlab:coder.internal.code2model('FFTHDLOptimizedExample_Streaming:7')" name="code2model" class="code2model">
+DataIn
+</a>
+: 16 bits
+</li>
+<li>
+<a href="matlab:coder.internal.code2model('FFTHDLOptimizedExample_Streaming:7')" name="code2model" class="code2model">
+DataIn
+</a>
+: 16 bits
+</li>
+<li>
+<a href="matlab:coder.internal.code2model('FFTHDLOptimizedExample_Streaming:7')" name="code2model" class="code2model">
+DataIn
+</a>
+: 16 bits
+</li>
+<li>
+<a href="matlab:coder.internal.code2model('FFTHDLOptimizedExample_Streaming:7')" name="code2model" class="code2model">
+DataIn
+</a>
+: 16 bits
+</li>
+<li>
+<a href="matlab:coder.internal.code2model('FFTHDLOptimizedExample_Streaming:7')" name="code2model" class="code2model">
+DataIn
+</a>
+: 16 bits
+</li>
+<li>
+<a href="matlab:coder.internal.code2model('FFTHDLOptimizedExample_Streaming:7')" name="code2model" class="code2model">
+DataIn
+</a>
+: 16 bits
+</li>
+<li>
+<a href="matlab:coder.internal.code2model('FFTHDLOptimizedExample_Streaming:7')" name="code2model" class="code2model">
+DataIn
+</a>
+: 16 bits
+</li>
+<li>
+<a href="matlab:coder.internal.code2model('FFTHDLOptimizedExample_Streaming:7')" name="code2model" class="code2model">
+DataIn
+</a>
+: 16 bits
+</li>
+<li>
+<a href="matlab:coder.internal.code2model('FFTHDLOptimizedExample_Streaming:7')" name="code2model" class="code2model">
+DataIn
+</a>
+: 16 bits
+</li>
+<li>
+<a href="matlab:coder.internal.code2model('FFTHDLOptimizedExample_Streaming:7')" name="code2model" class="code2model">
+DataIn
+</a>
+: 16 bits
+</li>
+<li>
+<a href="matlab:coder.internal.code2model('FFTHDLOptimizedExample_Streaming:7')" name="code2model" class="code2model">
+DataIn
+</a>
+: 16 bits
+</li>
+<li>
+<a href="matlab:coder.internal.code2model('FFTHDLOptimizedExample_Streaming:7')" name="code2model" class="code2model">
+DataIn
+</a>
+: 16 bits
+</li>
+<li>
+<a href="matlab:coder.internal.code2model('FFTHDLOptimizedExample_Streaming:7')" name="code2model" class="code2model">
+DataIn
+</a>
+: 16 bits
+</li>
+<li>
+<a href="matlab:coder.internal.code2model('FFTHDLOptimizedExample_Streaming:7')" name="code2model" class="code2model">
+DataIn
+</a>
+: 16 bits
+</li>
+<li>
+<a href="matlab:coder.internal.code2model('FFTHDLOptimizedExample_Streaming:7')" name="code2model" class="code2model">
+DataIn
+</a>
+: 16 bits
+</li>
+<li>
+<a href="matlab:coder.internal.code2model('FFTHDLOptimizedExample_Streaming:8')" name="code2model" class="code2model">
+ValidIn
+</a>
+: 1 bit
+</li>
+
+</ul>
+<span class="SDCollapseControl" onclick="collapseSD(this, '840e5454-9601-464a-96f7-3870a7f78f2f')" onmouseover="this.style.cursor = 'pointer'">
+&#8743; Less
+</span>
+<br />
+</span>
+<br /><span name="collapsible" id="collapsible" style="font-family:monospace" onclick="hdlTableShrink(this, 'Output_Port')" onmouseover="this.style.cursor = 'pointer'">
+[+]
+</span>
+<span style="font-family:monospace">
+Number of Output Bits: 401
+</span>
+<span name="Output_Port" id="Output_Port">
+<ul class="SystemdefinedCollapse" id="1cbadf0e-756c-4349-a3a0-4d0224669601" dataCollapse="off">
+<li>
+DataOut_re_0: 25 bits
+</li>
+<li>
+DataOut_re_1: 25 bits
+</li>
+<li>
+DataOut_re_2: 25 bits
+</li>
+<li>
+DataOut_re_3: 25 bits
+</li>
+<li>
+DataOut_re_4: 25 bits
+</li>
+<li>
+DataOut_re_5: 25 bits
+</li>
+<li>
+DataOut_re_6: 25 bits
+</li>
+<li>
+DataOut_re_7: 25 bits
+</li>
+<li>
+DataOut_im_0: 25 bits
+</li>
+<li>
+DataOut_im_1: 25 bits
+</li>
+<li>
+DataOut_im_2: 25 bits
+</li>
+<li>
+DataOut_im_3: 25 bits
+</li>
+<li>
+DataOut_im_4: 25 bits
+</li>
+<li>
+DataOut_im_5: 25 bits
+</li>
+<li>
+DataOut_im_6: 25 bits
+</li>
+<li>
+DataOut_im_7: 25 bits
+</li>
+<li>
+<a href="matlab:coder.internal.code2model('FFTHDLOptimizedExample_Streaming:36')" name="code2model" class="code2model">
+ValidOut
+</a>
+: 1 bit
+</li>
+
+</ul>
+<span class="SDCollapseControl" onclick="collapseSD(this, '1cbadf0e-756c-4349-a3a0-4d0224669601')" onmouseover="this.style.cursor = 'pointer'">
+&#8743; Less
+</span>
+<br />
+</span>
+<br /><p><hr /></p>
+</body>
+
+</html>

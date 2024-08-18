@@ -1,0 +1,85 @@
+{D:/UT/Semester 6/ESL/CAs/CA2/Part2/Burst/hdl_prj/hdlsrc/FFTHDLOptimizedExample_Burst/FFT.v} {1 {vlog -work work -stats=none {D:/UT/Semester 6/ESL/CAs/CA2/Part2/Burst/hdl_prj/hdlsrc/FFTHDLOptimizedExample_Burst/FFT.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module FFT
+
+Top level modules:
+	FFT
+
+} {} {}} {D:/UT/Semester 6/ESL/CAs/CA2/Part2/Burst/hdl_prj/hdlsrc/FFTHDLOptimizedExample_Burst/MINRESRX2FFT_BTFSEL.v} {1 {vlog -work work -stats=none {D:/UT/Semester 6/ESL/CAs/CA2/Part2/Burst/hdl_prj/hdlsrc/FFTHDLOptimizedExample_Burst/MINRESRX2FFT_BTFSEL.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module MINRESRX2FFT_BTFSEL
+
+Top level modules:
+	MINRESRX2FFT_BTFSEL
+
+} {} {}} {D:/UT/Semester 6/ESL/CAs/CA2/Part2/Burst/hdl_prj/hdlsrc/FFTHDLOptimizedExample_Burst/MINRESRX2FFT_MEMORY.v} {1 {vlog -work work -stats=none {D:/UT/Semester 6/ESL/CAs/CA2/Part2/Burst/hdl_prj/hdlsrc/FFTHDLOptimizedExample_Burst/MINRESRX2FFT_MEMORY.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module MINRESRX2FFT_MEMORY
+
+Top level modules:
+	MINRESRX2FFT_MEMORY
+
+} {} {}} {D:/UT/Semester 6/ESL/CAs/CA2/Part2/Burst/hdl_prj/hdlsrc/FFTHDLOptimizedExample_Burst/Complex4Multiply.v} {1 {vlog -work work -stats=none {D:/UT/Semester 6/ESL/CAs/CA2/Part2/Burst/hdl_prj/hdlsrc/FFTHDLOptimizedExample_Burst/Complex4Multiply.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Complex4Multiply
+
+Top level modules:
+	Complex4Multiply
+
+} {} {}} {D:/UT/Semester 6/ESL/CAs/CA2/Part2/Burst/hdl_prj/hdlsrc/FFTHDLOptimizedExample_Burst/MINRESRX2FFT_MEMSEL.v} {1 {vlog -work work -stats=none {D:/UT/Semester 6/ESL/CAs/CA2/Part2/Burst/hdl_prj/hdlsrc/FFTHDLOptimizedExample_Burst/MINRESRX2FFT_MEMSEL.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module MINRESRX2FFT_MEMSEL
+
+Top level modules:
+	MINRESRX2FFT_MEMSEL
+
+} {} {}} {D:/UT/Semester 6/ESL/CAs/CA2/Part2/Burst/hdl_prj/hdlsrc/FFTHDLOptimizedExample_Burst/MINRESRX2FFT_CTRL.v} {1 {vlog -work work -stats=none {D:/UT/Semester 6/ESL/CAs/CA2/Part2/Burst/hdl_prj/hdlsrc/FFTHDLOptimizedExample_Burst/MINRESRX2FFT_CTRL.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module MINRESRX2FFT_CTRL
+
+Top level modules:
+	MINRESRX2FFT_CTRL
+
+} {} {}} {D:/UT/Semester 6/ESL/CAs/CA2/Part2/Burst/hdl_prj/hdlsrc/FFTHDLOptimizedExample_Burst/FFT_Burst.v} {1 {vlog -work work -stats=none {D:/UT/Semester 6/ESL/CAs/CA2/Part2/Burst/hdl_prj/hdlsrc/FFTHDLOptimizedExample_Burst/FFT_Burst.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module FFT_Burst
+
+Top level modules:
+	FFT_Burst
+
+} {} {}} {D:/UT/Semester 6/ESL/CAs/CA2/Part2/Burst/hdl_prj/hdlsrc/FFTHDLOptimizedExample_Burst/SimpleDualPortRAM_generic.v} {1 {vlog -work work -stats=none {D:/UT/Semester 6/ESL/CAs/CA2/Part2/Burst/hdl_prj/hdlsrc/FFTHDLOptimizedExample_Burst/SimpleDualPortRAM_generic.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module SimpleDualPortRAM_generic
+
+Top level modules:
+	SimpleDualPortRAM_generic
+
+} {} {}} {D:/UT/Semester 6/ESL/CAs/CA2/Part2/Burst/hdl_prj/hdlsrc/FFTHDLOptimizedExample_Burst/TWDLROM.v} {1 {vlog -work work -stats=none {D:/UT/Semester 6/ESL/CAs/CA2/Part2/Burst/hdl_prj/hdlsrc/FFTHDLOptimizedExample_Burst/TWDLROM.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module TWDLROM
+
+Top level modules:
+	TWDLROM
+
+} {} {}} {D:/UT/Semester 6/ESL/CAs/CA2/Part2/Burst/hdl_prj/hdlsrc/FFTHDLOptimizedExample_Burst/MINRESRX2_BUTTERFLY.v} {1 {vlog -work work -stats=none {D:/UT/Semester 6/ESL/CAs/CA2/Part2/Burst/hdl_prj/hdlsrc/FFTHDLOptimizedExample_Burst/MINRESRX2_BUTTERFLY.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module MINRESRX2_BUTTERFLY
+
+Top level modules:
+	MINRESRX2_BUTTERFLY
+
+} {} {}} {D:/UT/Semester 6/ESL/CAs/CA2/Part2/Burst/hdl_prj/hdlsrc/FFTHDLOptimizedExample_Burst/MINRESRX2FFT_OUTMux.v} {1 {vlog -work work -stats=none {D:/UT/Semester 6/ESL/CAs/CA2/Part2/Burst/hdl_prj/hdlsrc/FFTHDLOptimizedExample_Burst/MINRESRX2FFT_OUTMux.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module MINRESRX2FFT_OUTMux
+
+Top level modules:
+	MINRESRX2FFT_OUTMux
+
+} {} {}} {D:/UT/Semester 6/ESL/CAs/CA2/Part2/Burst/hdl_prj/hdlsrc/FFTHDLOptimizedExample_Burst/FFT_Burst_tb.v} {1 {vlog -work work -stats=none {D:/UT/Semester 6/ESL/CAs/CA2/Part2/Burst/hdl_prj/hdlsrc/FFTHDLOptimizedExample_Burst/FFT_Burst_tb.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module FFT_Burst_tb
+
+Top level modules:
+	FFT_Burst_tb
+
+} {} {}}

@@ -1,0 +1,41 @@
+# Reading pref.tcl
+# OpenFile {D:/UT/Semester 6/ESL/CAs/CA2/Part2/Burst/hdl_prj/hdlsrc/FFTHDLOptimizedExample_Burst/project.mpf}
+# Loading project project
+vsim -gui work.FFT_Burst_tb
+# vsim -gui work.FFT_Burst_tb 
+# Start time: 22:26:39 on May 13,2024
+# Loading work.FFT_Burst_tb
+# Loading work.FFT_Burst
+# Loading work.FFT
+# Loading work.TWDLROM
+# Loading work.MINRESRX2FFT_MEMORY
+# Loading work.SimpleDualPortRAM_generic
+# Loading work.MINRESRX2FFT_BTFSEL
+# Loading work.MINRESRX2_BUTTERFLY
+# Loading work.Complex4Multiply
+# Loading work.MINRESRX2FFT_MEMSEL
+# Loading work.MINRESRX2FFT_CTRL
+# Loading work.MINRESRX2FFT_OUTMux
+run -all
+# Break key hit
+# Break in NamedBeginStat intdelay_2_process at D:/UT/Semester 6/ESL/CAs/CA2/Part2/Burst/hdl_prj/hdlsrc/FFTHDLOptimizedExample_Burst/MINRESRX2FFT_MEMORY.v line 198
+add wave -position insertpoint  \
+sim:/FFT_Burst_tb/u_FFT_Burst/u_FFT/u_MinResRX2FFT_MEMORY/minResRX2FFTMEMCtrl_IC
+add wave -position insertpoint  \
+sim:/FFT_Burst_tb/u_FFT_Burst/DataIn_im \
+sim:/FFT_Burst_tb/u_FFT_Burst/DataIn_re \
+sim:/FFT_Burst_tb/u_FFT_Burst/DataOut_re \
+sim:/FFT_Burst_tb/u_FFT_Burst/ValidIn \
+sim:/FFT_Burst_tb/u_FFT_Burst/ValidOut
+run -all
+# **************TEST COMPLETED (PASSED)**************
+# ** Note: $stop    : D:/UT/Semester 6/ESL/CAs/CA2/Part2/Burst/hdl_prj/hdlsrc/FFTHDLOptimizedExample_Burst/FFT_Burst_tb.v(182)
+#    Time: 245810 ns  Iteration: 0  Instance: /FFT_Burst_tb
+# Break in NamedBeginStat clk_gen at D:/UT/Semester 6/ESL/CAs/CA2/Part2/Burst/hdl_prj/hdlsrc/FFTHDLOptimizedExample_Burst/FFT_Burst_tb.v line 182
+# Break key hit
+restart
+run -all
+# Break key hit
+# Break at D:/UT/Semester 6/ESL/CAs/CA2/Part2/Burst/hdl_prj/hdlsrc/FFTHDLOptimizedExample_Burst/Complex4Multiply.v line 236
+# End time: 22:33:14 on May 13,2024, Elapsed time: 0:06:35
+# Errors: 0, Warnings: 1

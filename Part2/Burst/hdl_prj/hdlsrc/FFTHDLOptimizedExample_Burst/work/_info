@@ -1,0 +1,299 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/20.1/modelsim_ase/win32aloem
+vComplex4Multiply
+Z0 !s110 1715441127
+!i10b 1
+!s100 i9CYBn4YYg@olAL5S<3cA3
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I]3<[?d:2aP?G3R3o5h_3N0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dD:/UT/Semester 6/ESL/CAs/CA2/Part2/Burst/hdl_prj/hdlsrc/FFTHDLOptimizedExample_Burst
+Z4 w1715439693
+8D:/UT/Semester 6/ESL/CAs/CA2/Part2/Burst/hdl_prj/hdlsrc/FFTHDLOptimizedExample_Burst/Complex4Multiply.v
+FD:/UT/Semester 6/ESL/CAs/CA2/Part2/Burst/hdl_prj/hdlsrc/FFTHDLOptimizedExample_Burst/Complex4Multiply.v
+!i122 0
+L0 22 221
+Z5 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z6 !s108 1715441127.000000
+!s107 D:/UT/Semester 6/ESL/CAs/CA2/Part2/Burst/hdl_prj/hdlsrc/FFTHDLOptimizedExample_Burst/Complex4Multiply.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/UT/Semester 6/ESL/CAs/CA2/Part2/Burst/hdl_prj/hdlsrc/FFTHDLOptimizedExample_Burst/Complex4Multiply.v|
+!i113 1
+Z7 o-work work
+Z8 tCvgOpt 0
+n@complex4@multiply
+vFFT
+R0
+!i10b 1
+!s100 WAc`QAY?;7`KJ`TT]@U@>3
+R1
+IZmOC`]m=::gCPWFmLbn`12
+R2
+R3
+R4
+8D:/UT/Semester 6/ESL/CAs/CA2/Part2/Burst/hdl_prj/hdlsrc/FFTHDLOptimizedExample_Burst/FFT.v
+FD:/UT/Semester 6/ESL/CAs/CA2/Part2/Burst/hdl_prj/hdlsrc/FFTHDLOptimizedExample_Burst/FFT.v
+!i122 1
+L0 24 229
+R5
+r1
+!s85 0
+31
+R6
+!s107 D:/UT/Semester 6/ESL/CAs/CA2/Part2/Burst/hdl_prj/hdlsrc/FFTHDLOptimizedExample_Burst/FFT.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/UT/Semester 6/ESL/CAs/CA2/Part2/Burst/hdl_prj/hdlsrc/FFTHDLOptimizedExample_Burst/FFT.v|
+!i113 1
+R7
+R8
+n@f@f@t
+vFFT_Burst
+R0
+!i10b 1
+!s100 LbNZjdnhJ:TLDLih_lT@B2
+R1
+IAgoo>HhWbTzh=?e:[ecN]2
+R2
+R3
+w1715439700
+8D:/UT/Semester 6/ESL/CAs/CA2/Part2/Burst/hdl_prj/hdlsrc/FFTHDLOptimizedExample_Burst/FFT_Burst.v
+FD:/UT/Semester 6/ESL/CAs/CA2/Part2/Burst/hdl_prj/hdlsrc/FFTHDLOptimizedExample_Burst/FFT_Burst.v
+!i122 2
+L0 29 48
+R5
+r1
+!s85 0
+31
+R6
+!s107 D:/UT/Semester 6/ESL/CAs/CA2/Part2/Burst/hdl_prj/hdlsrc/FFTHDLOptimizedExample_Burst/FFT_Burst.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/UT/Semester 6/ESL/CAs/CA2/Part2/Burst/hdl_prj/hdlsrc/FFTHDLOptimizedExample_Burst/FFT_Burst.v|
+!i113 1
+R7
+R8
+n@f@f@t_@burst
+vFFT_Burst_tb
+R0
+!i10b 1
+!s100 ZBoke[^Uo8S4_?gBDbPKZ3
+R1
+IaGz:k`Xf^7n@86IU:D1Gk2
+R2
+R3
+w1715439740
+8D:/UT/Semester 6/ESL/CAs/CA2/Part2/Burst/hdl_prj/hdlsrc/FFTHDLOptimizedExample_Burst/FFT_Burst_tb.v
+FD:/UT/Semester 6/ESL/CAs/CA2/Part2/Burst/hdl_prj/hdlsrc/FFTHDLOptimizedExample_Burst/FFT_Burst_tb.v
+!i122 3
+L0 28 541
+R5
+r1
+!s85 0
+31
+R6
+!s107 D:/UT/Semester 6/ESL/CAs/CA2/Part2/Burst/hdl_prj/hdlsrc/FFTHDLOptimizedExample_Burst/FFT_Burst_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/UT/Semester 6/ESL/CAs/CA2/Part2/Burst/hdl_prj/hdlsrc/FFTHDLOptimizedExample_Burst/FFT_Burst_tb.v|
+!i113 1
+R7
+R8
+n@f@f@t_@burst_tb
+vMINRESRX2_BUTTERFLY
+R0
+!i10b 1
+!s100 ;1T?<GCe6mfolfYf[@JeN3
+R1
+I2^0eOKIk;R5hbMN[Cben`2
+R2
+R3
+R4
+8D:/UT/Semester 6/ESL/CAs/CA2/Part2/Burst/hdl_prj/hdlsrc/FFTHDLOptimizedExample_Burst/MINRESRX2_BUTTERFLY.v
+FD:/UT/Semester 6/ESL/CAs/CA2/Part2/Burst/hdl_prj/hdlsrc/FFTHDLOptimizedExample_Burst/MINRESRX2_BUTTERFLY.v
+!i122 4
+L0 22 280
+R5
+r1
+!s85 0
+31
+R6
+!s107 D:/UT/Semester 6/ESL/CAs/CA2/Part2/Burst/hdl_prj/hdlsrc/FFTHDLOptimizedExample_Burst/MINRESRX2_BUTTERFLY.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/UT/Semester 6/ESL/CAs/CA2/Part2/Burst/hdl_prj/hdlsrc/FFTHDLOptimizedExample_Burst/MINRESRX2_BUTTERFLY.v|
+!i113 1
+R7
+R8
+n@m@i@n@r@e@s@r@x2_@b@u@t@t@e@r@f@l@y
+vMINRESRX2FFT_BTFSEL
+R0
+!i10b 1
+!s100 7:9?SHn_S>fZmBY<d4A=[0
+R1
+I9=[@SE5hG8S=fJK9kJ_Ul1
+R2
+R3
+R4
+8D:/UT/Semester 6/ESL/CAs/CA2/Part2/Burst/hdl_prj/hdlsrc/FFTHDLOptimizedExample_Burst/MINRESRX2FFT_BTFSEL.v
+FD:/UT/Semester 6/ESL/CAs/CA2/Part2/Burst/hdl_prj/hdlsrc/FFTHDLOptimizedExample_Burst/MINRESRX2FFT_BTFSEL.v
+!i122 5
+L0 22 226
+R5
+r1
+!s85 0
+31
+R6
+!s107 D:/UT/Semester 6/ESL/CAs/CA2/Part2/Burst/hdl_prj/hdlsrc/FFTHDLOptimizedExample_Burst/MINRESRX2FFT_BTFSEL.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/UT/Semester 6/ESL/CAs/CA2/Part2/Burst/hdl_prj/hdlsrc/FFTHDLOptimizedExample_Burst/MINRESRX2FFT_BTFSEL.v|
+!i113 1
+R7
+R8
+n@m@i@n@r@e@s@r@x2@f@f@t_@b@t@f@s@e@l
+vMINRESRX2FFT_CTRL
+R0
+!i10b 1
+!s100 LX4CHQ7OG1NfXzg:D007k3
+R1
+InWa?DYe@CUz::aWHYcOh?2
+R2
+R3
+R4
+8D:/UT/Semester 6/ESL/CAs/CA2/Part2/Burst/hdl_prj/hdlsrc/FFTHDLOptimizedExample_Burst/MINRESRX2FFT_CTRL.v
+FD:/UT/Semester 6/ESL/CAs/CA2/Part2/Burst/hdl_prj/hdlsrc/FFTHDLOptimizedExample_Burst/MINRESRX2FFT_CTRL.v
+!i122 6
+L0 22 685
+R5
+r1
+!s85 0
+31
+R6
+!s107 D:/UT/Semester 6/ESL/CAs/CA2/Part2/Burst/hdl_prj/hdlsrc/FFTHDLOptimizedExample_Burst/MINRESRX2FFT_CTRL.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/UT/Semester 6/ESL/CAs/CA2/Part2/Burst/hdl_prj/hdlsrc/FFTHDLOptimizedExample_Burst/MINRESRX2FFT_CTRL.v|
+!i113 1
+R7
+R8
+n@m@i@n@r@e@s@r@x2@f@f@t_@c@t@r@l
+vMINRESRX2FFT_MEMORY
+Z9 !s110 1715441128
+!i10b 1
+!s100 Acl=ke^f611_Q63DH`8H31
+R1
+IFjiQ:5OAfeA^c@2]1nSWT1
+R2
+R3
+R4
+8D:/UT/Semester 6/ESL/CAs/CA2/Part2/Burst/hdl_prj/hdlsrc/FFTHDLOptimizedExample_Burst/MINRESRX2FFT_MEMORY.v
+FD:/UT/Semester 6/ESL/CAs/CA2/Part2/Burst/hdl_prj/hdlsrc/FFTHDLOptimizedExample_Burst/MINRESRX2FFT_MEMORY.v
+!i122 7
+L0 22 503
+R5
+r1
+!s85 0
+31
+Z10 !s108 1715441128.000000
+!s107 D:/UT/Semester 6/ESL/CAs/CA2/Part2/Burst/hdl_prj/hdlsrc/FFTHDLOptimizedExample_Burst/MINRESRX2FFT_MEMORY.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/UT/Semester 6/ESL/CAs/CA2/Part2/Burst/hdl_prj/hdlsrc/FFTHDLOptimizedExample_Burst/MINRESRX2FFT_MEMORY.v|
+!i113 1
+R7
+R8
+n@m@i@n@r@e@s@r@x2@f@f@t_@m@e@m@o@r@y
+vMINRESRX2FFT_MEMSEL
+R9
+!i10b 1
+!s100 >X^WgeR?76_:FA5z>KS0h2
+R1
+I6h9WNC2SJU1U=O6Y_ZMa=0
+R2
+R3
+R4
+8D:/UT/Semester 6/ESL/CAs/CA2/Part2/Burst/hdl_prj/hdlsrc/FFTHDLOptimizedExample_Burst/MINRESRX2FFT_MEMSEL.v
+FD:/UT/Semester 6/ESL/CAs/CA2/Part2/Burst/hdl_prj/hdlsrc/FFTHDLOptimizedExample_Burst/MINRESRX2FFT_MEMSEL.v
+!i122 8
+L0 22 149
+R5
+r1
+!s85 0
+31
+R10
+!s107 D:/UT/Semester 6/ESL/CAs/CA2/Part2/Burst/hdl_prj/hdlsrc/FFTHDLOptimizedExample_Burst/MINRESRX2FFT_MEMSEL.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/UT/Semester 6/ESL/CAs/CA2/Part2/Burst/hdl_prj/hdlsrc/FFTHDLOptimizedExample_Burst/MINRESRX2FFT_MEMSEL.v|
+!i113 1
+R7
+R8
+n@m@i@n@r@e@s@r@x2@f@f@t_@m@e@m@s@e@l
+vMINRESRX2FFT_OUTMux
+R9
+!i10b 1
+!s100 Z89Uij:mCUm]XlQGzZ6D:0
+R1
+IRPeTB20HYAKEmC3RcWBgI2
+R2
+R3
+R4
+8D:/UT/Semester 6/ESL/CAs/CA2/Part2/Burst/hdl_prj/hdlsrc/FFTHDLOptimizedExample_Burst/MINRESRX2FFT_OUTMux.v
+FD:/UT/Semester 6/ESL/CAs/CA2/Part2/Burst/hdl_prj/hdlsrc/FFTHDLOptimizedExample_Burst/MINRESRX2FFT_OUTMux.v
+!i122 9
+L0 22 110
+R5
+r1
+!s85 0
+31
+R10
+!s107 D:/UT/Semester 6/ESL/CAs/CA2/Part2/Burst/hdl_prj/hdlsrc/FFTHDLOptimizedExample_Burst/MINRESRX2FFT_OUTMux.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/UT/Semester 6/ESL/CAs/CA2/Part2/Burst/hdl_prj/hdlsrc/FFTHDLOptimizedExample_Burst/MINRESRX2FFT_OUTMux.v|
+!i113 1
+R7
+R8
+n@m@i@n@r@e@s@r@x2@f@f@t_@o@u@t@mux
+vSimpleDualPortRAM_generic
+R9
+!i10b 1
+!s100 8dFTI_G7PB419:=X8BHzi3
+R1
+INR5<BMQGbEJQXM[iam4400
+R2
+R3
+R4
+8D:/UT/Semester 6/ESL/CAs/CA2/Part2/Burst/hdl_prj/hdlsrc/FFTHDLOptimizedExample_Burst/SimpleDualPortRAM_generic.v
+FD:/UT/Semester 6/ESL/CAs/CA2/Part2/Burst/hdl_prj/hdlsrc/FFTHDLOptimizedExample_Burst/SimpleDualPortRAM_generic.v
+!i122 10
+L0 22 42
+R5
+r1
+!s85 0
+31
+R10
+!s107 D:/UT/Semester 6/ESL/CAs/CA2/Part2/Burst/hdl_prj/hdlsrc/FFTHDLOptimizedExample_Burst/SimpleDualPortRAM_generic.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/UT/Semester 6/ESL/CAs/CA2/Part2/Burst/hdl_prj/hdlsrc/FFTHDLOptimizedExample_Burst/SimpleDualPortRAM_generic.v|
+!i113 1
+R7
+R8
+n@simple@dual@port@r@a@m_generic
+vTWDLROM
+R9
+!i10b 1
+!s100 iWPHUW78j<[Qbb8QY73gg2
+R1
+IeZ`b>mS4A9MZV_9XLJk]O3
+R2
+R3
+R4
+8D:/UT/Semester 6/ESL/CAs/CA2/Part2/Burst/hdl_prj/hdlsrc/FFTHDLOptimizedExample_Burst/TWDLROM.v
+FD:/UT/Semester 6/ESL/CAs/CA2/Part2/Burst/hdl_prj/hdlsrc/FFTHDLOptimizedExample_Burst/TWDLROM.v
+!i122 11
+L0 22 513
+R5
+r1
+!s85 0
+31
+R10
+!s107 D:/UT/Semester 6/ESL/CAs/CA2/Part2/Burst/hdl_prj/hdlsrc/FFTHDLOptimizedExample_Burst/TWDLROM.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/UT/Semester 6/ESL/CAs/CA2/Part2/Burst/hdl_prj/hdlsrc/FFTHDLOptimizedExample_Burst/TWDLROM.v|
+!i113 1
+R7
+R8
+n@t@w@d@l@r@o@m

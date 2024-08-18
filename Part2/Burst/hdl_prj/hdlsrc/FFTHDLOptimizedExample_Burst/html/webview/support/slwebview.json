@@ -1,0 +1,27 @@
+{
+ "version":3,
+ "baseUrl":"support/slwebview_files",
+ "homeHid":2,
+ "sections":[
+  {
+   "hid":1,
+   "sid":"FFTHDLOptimizedExample_Burst",
+   "name":"FFTHDLOptimizedExample_Burst",
+   "fullname":"FFTHDLOptimizedExample_Burst",
+   "label":"FFTHDLOptimizedExample_Burst",
+   "parent":0,
+   "descendantIDs":[
+    2
+   ],
+   "descendantsURL":"support/slwebview_files/FFTHDLOptimizedExample_Burst_diagrams_1.json",
+   "sysViewURL":"support/slwebview_files/FFTHDLOptimizedExample_Burst_p.json"
+  }
+ ],
+ "optViews":[
+ ],
+ "display":{
+  "informer":false,
+  "notes":false
+ },
+ "iconsUrl":"support/slwebview_files/icon.css"
+}
